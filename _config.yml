@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Ryan's test docs
 description: Ryan Testing Jekyll Themes For User Docs
-baseurl: "/Ryan-test-docs # the subpath of your site, e.g. /blog
+baseurl: "/Ryan-test-docs" # the subpath of your site, e.g. /blog
 url: "https://Ryanwo1.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
