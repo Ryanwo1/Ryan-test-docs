@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Navigation Structure
+title: Foumulas and Function
 nav_order: 5
 ---
 
-# Navigation Structure
+# Foumulas and Function
 {: .no_toc }
 
 <details open markdown="block">
