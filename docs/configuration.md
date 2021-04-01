@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ryan's Test Configuration
+title: Configuration
 nav_order: 2
 ---
 
