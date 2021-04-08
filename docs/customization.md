@@ -23,6 +23,8 @@ Microsoft Excel has become one of the most widely used software in all the indus
 
 Sort sheet means when we sort a category of values according to a specific pattern, all other correlated values will be moved because of it.
 
+![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image1.png?raw=true "starting window")
+
 ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image1.png?raw=true "starting window")
 ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image2.png?raw=true "starting window")
 
