@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Utilities
+title: Formulas and Functions
 nav_order: 4
 has_children: true
 permalink: docs/utilities
