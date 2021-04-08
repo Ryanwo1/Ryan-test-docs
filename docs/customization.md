@@ -29,27 +29,28 @@ Sort range means we only sort a part of the cells in a sheet, and it will be con
 
 There are more than 1 table in the sheet, so we only want to sort the “Total Orders (by Grade)” on the right. Then after sorting range alphabetically by “Class”, all the cells of “Payment Method” on the left will never be affected. 
 
-### Insturcions
-1.Sort Sheet
+### Insturctions
+### Sort Sheet
 
 Goal: Sort the whole sheet alphabetically by “Last Name”.
 
-Select any cells in the “Last Name” column. For instance, we choose C2 this time. 
+1.Select any cells in the “Last Name” column. For instance, we choose C2 this time. 
 
-Find “Data” on the top of the menu, and click the “A-Z” command to rank names from initial A to initial Z.  
-The result has been presented below. 
+2.Find “Data” on the top of the menu, and click the “A-Z” command to rank names from initial A to initial Z. 
+ 
+3.The result has been presented below. 
 
-2.Sort range
+### Sort range
 
 Goal: Sort the number of “Orders” increasingly only in table “Total orders (by Grade)”.
 
-Select all the values in “Class” and “Orders” columns. 
+1.Select all the values in “Class” and “Orders” columns. 
 
-Find “Data” on the top of the menu, and click the “sort” command. 
+2.Find “Data” on the top of the menu, and click the “sort” command. 
 
-Click the  in “sort by” category and choose “Orders”. 
+3.Click the  in “sort by” category and choose “Orders”. 
 
-Choose “Cell values” and “Smallest to Largest” separately. 
+4.Choose “Cell values” and “Smallest to Largest” separately. 
 
-Confirm all your operations by clicking OK to see the result below. 
+5.Confirm all your operations by clicking OK to see the result below. 
 
