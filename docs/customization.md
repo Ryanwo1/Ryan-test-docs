@@ -74,6 +74,7 @@ Goal: Sort the number of “Orders” increasingly only in table “Total orders
 
 5.Confirm all your operations by clicking OK to see the result below. 
 
+
 ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image13.png?raw=true "starting window")
 
 ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image14.png?raw=true "starting window")
