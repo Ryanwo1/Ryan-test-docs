@@ -19,224 +19,67 @@ Arguments, not as straightforward as equals sign and function name, might be a b
 
 ---
 
-## Ordering pages
+## Edit Formulas
 
-To specify a page order, you can use the `nav_order` parameter in your pages' YAML front matter.
+Many people prefer to edit their own formulas to calculate the values in their own ways without the help of Excel functions. For example, if we want to multiply both value of A1 and A2 then add the value of A3, we should follow the steps below.
 
-#### Example
-{: .no_toc }
+1.Click on the cell where you want to get the value. In this case, we choose B5 for instance. 
 
-```yaml
----
-layout: default
-title: Customization
-nav_order: 4
----
-```
+2.Type the formula “=A1*A2+A3”. 
 
-The parameter values determine the order of the top-level pages, and of child pages with the same parent. You can reuse the same parameter values (e.g., integers starting from 1) for the child pages of different parents.
+3.Press “enter”, then the value of this formula is in B5. Also, the formula will still be presented in the bar in the top right. 
 
-The parameter values can be numbers (integers, floats) and/or strings. When you omit `nav_order` parameters, they default to the titles of the pages, which are ordered alphabetically. Pages with numerical `nav_order` parameters always come before those with strings or default `nav_order` parameters. If you want to make the page order independent of the page titles, you can set explicit `nav_order` parameters on all pages.
+Note: 
+  -If you are afraid of typing the position of cells wrong, you can easily click on the cells you want to select. 
+  -Do not forget to type “=” in front of every function for Excel newbies.    
 
-By default, all Capital letters come before all lowercase letters; you can add `nav_sort: case_insensitive` in the configuration file to ignore the case. Enclosing strings in quotation marks is optional.
 
-> *Note for users of previous versions:* `nav_sort: case_insensitive` previously affected the ordering of numerical `nav_order` parameters: e.g., `10` came before `2`. Also, all pages with explicit `nav_order` parameters previously came before all pages with default parameters. Both were potentially confusing, and they have now been eliminated. 
+
+
 
 ---
 
-## Excluding pages
+## Apply Function Library
 
-For specific pages that you do not wish to include in the main navigation, e.g. a 404 page or a landing page, use the `nav_exclude: true` parameter in the YAML front matter for that page.
+Instead of manually typing the formulas by ourselves, users can apply redefined functions in the library. Here are the 5 most popular functions in Excel. 
 
-#### Example
-{: .no_toc }
+  - SUM: Add all the values of cells in arguments. 
+  - AVERAGE: Calculate the sum of values in arguments, then divide the sum by the number of values. 
+  - COUNT: Get the number of cells in the arguments. 
+  - MAX: Find the maximum value in the whole arguments. 
+  - MIN: Find the minimum value in the whole arguments.    
+  - AutoSum:
 
-```yaml
----
-layout: default
-title: 404
-nav_exclude: true
----
-```
+  AutoSum is most frequently used icon for many Excel users because it contains the most popular functions in Excel. So, how can we use that? 
+  
+  1.Choose the right cells as your arguments. In this example, we have to choose from B2 to B6. 
 
-The `nav_exclude` parameter does not affect the [auto-generating list of child pages](#auto-generating-table-of-contents), which you can use to access pages excluded from the main navigation.
+  2.Click the  on the right of AutoSum and select which specific function you need. In this example, we choose function Max to find the greatest numerical values       in the argument. 
 
-Pages with no `title` are automatically excluded from the navigation. 
+  3.The maximum numerical value is automatically shown under the last cell of the argument (B7) which is highlighted in yellow. 
 
----
-
-## Pages with children
-
-Sometimes you will want to create a page with many children (a section). First, it is recommended that you keep pages that are related in a directory together... For example, in these docs, we keep all of the written documentation in the `./docs` directory and each of the sections in subdirectories like `./docs/ui-components` and `./docs/utilities`. This gives us an organization like:
-
-```
-+-- ..
-|-- (Jekyll files)
-|
-|-- docs
-|   |-- ui-components
-|   |   |-- index.md  (parent page)
-|   |   |-- buttons.md
-|   |   |-- code.md
-|   |   |-- labels.md
-|   |   |-- tables.md
-|   |   +-- typography.md
-|   |
-|   |-- utilities
-|   |   |-- index.md      (parent page)
-|   |   |-- color.md
-|   |   |-- layout.md
-|   |   |-- responsive-modifiers.md
-|   |   +-- typography.md
-|   |
-|   |-- (other md files, pages with no children)
-|   +-- ..
-|
-|-- (Jekyll files)
-+-- ..
-```
-
-On the parent pages, add this YAML front matter parameter:
--  `has_children: true` (tells us that this is a parent page)
-
-#### Example
-{: .no_toc }
-
-```yaml
----
-layout: default
-title: UI Components
-nav_order: 2
-has_children: true
----
-```
-
-Here we're setting up the UI Components landing page that is available at `/docs/ui-components`, which has children and is ordered second in the main nav.
-
-### Child pages
-{: .text-gamma }
-
-On child pages, simply set the `parent:` YAML front matter to whatever the parent's page title is and set a nav order (this number is now scoped within the section).
-
-#### Example
-{: .no_toc }
-
-```yaml
----
-layout: default
-title: Buttons
-parent: UI Components
-nav_order: 2
----
-```
-
-The Buttons page appears as a child of UI Components and appears second in the UI Components section.
-
-### Auto-generating Table of Contents
-
-By default, all pages with children will automatically append a Table of Contents which lists the child pages after the parent page's content. To disable this auto Table of Contents, set `has_toc: false` in the parent page's YAML front matter.
-
-#### Example
-{: .no_toc }
-
-```yaml
----
-layout: default
-title: UI Components
-nav_order: 2
-has_children: true
-has_toc: false
----
-```
-
-### Children with children
-{: .text-gamma }
-
-Child pages can also have children (grandchildren). This is achieved by using a similar pattern on the child and grandchild pages.
-
-1. Add the `has_children` attribute to the child
-1. Add the `parent` and `grand_parent` attribute to the grandchild
-
-#### Example
-{: .no_toc }
-
-```yaml
----
-layout: default
-title: Buttons
-parent: UI Components
-nav_order: 2
-has_children: true
----
-```
-
-```yaml
----
-layout: default
-title: Buttons Child Page
-parent: Buttons
-grand_parent: UI Components
-nav_order: 1
----
-```
-
-This would create the following navigation structure:
-
-```
-+-- ..
-|
-|-- UI Components
-|   |-- ..
-|   |
-|   |-- Buttons
-|   |   |-- Button Child Page
-|   |
-|   |-- ..
-|
-+-- ..
-```
+  Note:  
+    There is no need to enter “=” before using AutoSum because everything has been automatically set up. The only thing the user is required to make sure is the       cells of values in the argument. 
 
 ---
 
-## Auxiliary Links
+## Insert Function: 
 
-To add auxiliary links to your site (in the upper right on all pages), add it to the `aux_links` [configuration option]({{ site.baseurl }}{% link docs/configuration.md %}#aux-links) in your site's `_config.yml` file.
+Beside AutoSum, users are also able to insert Excel functions from the comprehensive library. Let us use IF as a harder example. 
+1.Click formulas, and then find “Insert Function” in the very left.  
 
-#### Example
-{: .no_toc }
+2.Click OK to choose IF and carefully read the syntax of this function. In other words, make sure you know how to write this function correctly and list all the conditions needed to operate it.    
 
-```yaml
-# Aux links for the upper right navigation
-aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/pmarsceill/just-the-docs"
-```
+3.List all the conditions needed in the blank. 
 
----
+4.In our example, people can receive a gift in the Chinese New Year if and only if they are younger than 18. Therefore, our Logical_test is B2<18.  
 
-## In-page navigation with Table of Contents
+5.Choose OK to confirm your syntax. 
 
-To generate a Table of Contents on your docs pages, you can use the `{:toc}` method from Kramdown, immediately after an `<ol>` in Markdown. This will automatically generate an ordered list of anchor links to various sections of the page based on headings and heading levels. There may be occasions where you're using a heading and you don't want it to show up in the TOC, so to skip a particular heading use the `{: .no_toc }` CSS class.
+Note:
+  -It is extremely important to study the syntax of the function you want to use. 
+Now you know how to flexibly apply functions in Excel. The key of this task is to practice more and gradually get familiar with the syntax.  
 
-#### Example
-{: .no_toc }
-
-```markdown
-# Navigation Structure
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-```
-
-This example skips the page name heading (`#`) from the TOC, as well as the heading for the Table of Contents itself (`##`) because it is redundant, followed by the table of contents itself. To get an unordered list, replace  `1. TOC` above by `- TOC`.
-
-### Collapsible Table of Contents
-
-The Table of Contents can be made collapsible using the `<details>` and `<summary>` elements , as in the following example. The attribute `open` (expands the Table of Contents by default) and the styling with `{: .text-delta }` are optional.
 
 ```markdown
 <details open markdown="block">
