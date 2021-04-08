@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Customization
+title: Formatting and Presentation
 nav_order: 6
 ---
 
-# Customization
+# Formatting and Presentation
 {: .no_toc }
 
 ## Table of contents
