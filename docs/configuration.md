@@ -7,7 +7,7 @@ nav_order: 2
 # Navigation and View Tab
 {: .no_toc }
 
-{: .fs-6 .fw-300 }
+{: .fs-2 .fw-100 }
 
 ## Table of contents
 {: .no_toc .text-delta }
