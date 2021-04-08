@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Navigation
+title: Navigation and View Tab
 nav_order: 2
 ---
 
-# Navigation
+# Navigation and View Tab
 {: .no_toc }
 
 Excel navigation...
