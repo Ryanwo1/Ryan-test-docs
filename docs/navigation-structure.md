@@ -63,7 +63,7 @@ Instead of manually typing the formulas by ourselves, users can apply redefined 
 
 ---
 
-## Insert Function: 
+## Insert Function
 
 Beside AutoSum, users are also able to insert Excel functions from the comprehensive library. Let us use IF as a harder example. 
 1.Click formulas, and then find “Insert Function” in the very left.  
