@@ -7,7 +7,6 @@ nav_order: 2
 # Navigation and View Tab
 {: .no_toc }
 
-Excel navigation...
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -17,9 +16,6 @@ Excel navigation...
 {:toc}
 
 ---
-
-
-View this site's [_config.yml](https://github.com/pmarsceill/just-the-docs/tree/master/_config.yml) file as an example.
 
 
 ## Navigation introduction
