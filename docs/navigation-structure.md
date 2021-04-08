@@ -79,17 +79,31 @@ Instead of manually typing the formulas by ourselves, users can apply redefined 
 ## Insert Function
 
 Beside AutoSum, users are also able to insert Excel functions from the comprehensive library. Let us use IF as a harder example. 
+
 1.Click formulas, and then find “Insert Function” in the very left.  
+
+ ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image10.png?raw=true "starting window")
 
 2.Click OK to choose IF and carefully read the syntax of this function. In other words, make sure you know how to write this function correctly and list all the conditions needed to operate it.    
 
+  ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image11.png?raw=true "starting window")
+
 3.List all the conditions needed in the blank. 
+
+  ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image12.png?raw=true "starting window")
 
 4.In our example, people can receive a gift in the Chinese New Year if and only if they are younger than 18. Therefore, our Logical_test is B2<18.  
 
+  ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image13.png?raw=true "starting window")
+
 5.Choose OK to confirm your syntax. 
 
+  ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image14.png?raw=true "starting window")
+    ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image15.png?raw=true "starting window")
+
 Note:
-  -It is extremely important to study the syntax of the function you want to use. 
+
+It is extremely important to study the syntax of the function you want to use. 
+  
 Now you know how to flexibly apply functions in Excel. The key of this task is to practice more and gradually get familiar with the syntax.  
 
