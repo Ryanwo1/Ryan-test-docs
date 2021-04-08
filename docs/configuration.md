@@ -43,7 +43,7 @@ To pin a file, find it (either through the Search bar or through the Recent tab)
  
  Your file will now immediately appear under the Pinned tab.
  
-![pinned tab selected](https://github.com/Ryanwo1/Rykyha/blob/6e1b46c5b422fb6437bdafdb3e8aa174d210a5a6/assets/images/navigation_image2.png?raw=true)
+![pinned tab selected](https://github.com/Ryanwo1/Rykyha/blob/1b55d1cd19cf4b5434d46e16ffb19f29ebed6a2d/assets/images/navigation_image3.png?raw=true)
     
 Shared with Me will show you documents that have been specifically shared with you. This allows you to more easily sort out documents that are part of a team effort.
     
