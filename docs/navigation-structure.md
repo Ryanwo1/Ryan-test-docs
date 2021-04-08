@@ -25,12 +25,15 @@ Arguments, not as straightforward as equals sign and function name, might be a b
 Many people prefer to edit their own formulas to calculate the values in their own ways without the help of Excel functions. For example, if we want to multiply both value of A1 and A2 then add the value of A3, we should follow the steps below.
 
 1.Click on the cell where you want to get the value. In this case, we choose B5 for instance. 
+
 ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image2.png?raw=true "starting window")
 
 2.Type the formula “=A1*A2+A3”. 
+
 ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image3.png?raw=true "starting window")
 
 3.Press “enter”, then the value of this formula is in B5. Also, the formula will still be presented in the bar in the top right. 
+
 ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image4.png?raw=true "starting window")
 
 Note: 
