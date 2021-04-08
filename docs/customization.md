@@ -21,12 +21,17 @@ Microsoft Excel has become one of the most widely used software in all the indus
 
 ### Sort Sheet or sort range
 
-Sort sheet means when we sort a category of values according to a specific pattern, all other correlated values will be moved because of it. Let’s read the example below.
+Sort sheet means when we sort a category of values according to a specific pattern, all other correlated values will be moved because of it.
 
+https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image1.png
+https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image2.png
 
 In the original worksheet, all the information was sorted by the “Homeroom” column. However, if we sort the whole sheet again alphabetically by the “Last Name” of people, then not only the order of “Last Name” did change, but information in other columns which is related to this name also moves. 
-Sort range means we only sort a part of the cells in a sheet, and it will be convenient when there are a few different tables in the same worksheet. Let’s read another example below. 
 
+Sort range means we only sort a part of the cells in a sheet, and it will be convenient when there are a few different tables in the same worksheet. 
+
+https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image3.png
+https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image4.png
 
 There are more than 1 table in the sheet, so we only want to sort the “Total Orders (by Grade)” on the right. Then after sorting range alphabetically by “Class”, all the cells of “Payment Method” on the left will never be affected. 
 
@@ -35,11 +40,17 @@ There are more than 1 table in the sheet, so we only want to sort the “Total O
 
 Goal: Sort the whole sheet alphabetically by “Last Name”.
 
-1.Select any cells in the “Last Name” column. For instance, we choose C2 this time. 
+1.Select any cells in the “Last Name” column. For instance, we choose C2 this time.
+
+https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image5.png
 
 2.Find “Data” on the top of the menu, and click the “A-Z” command to rank names from initial A to initial Z. 
+
+https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image6.png
  
 3.The result has been presented below. 
+
+https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image7.png
 
 ### Sort range
 
