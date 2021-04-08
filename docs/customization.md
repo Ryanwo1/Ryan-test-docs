@@ -33,74 +33,23 @@ There are more than 1 table in the sheet, so we only want to sort the “Total O
 1.Sort Sheet
 
 Goal: Sort the whole sheet alphabetically by “Last Name”.
+
 Select any cells in the “Last Name” column. For instance, we choose C2 this time. 
 
 Find “Data” on the top of the menu, and click the “A-Z” command to rank names from initial A to initial Z.  
 The result has been presented below. 
 
+2.Sort range
 
-## Custom schemes
+Goal: Sort the number of “Orders” increasingly only in table “Total orders (by Grade)”.
 
-### Define a custom scheme
+Select all the values in “Class” and “Orders” columns. 
 
-You can add custom schemes.
-If you want to add a scheme named `foo` (can be any name) just add a file `_sass/color_schemes/foo.scss` (replace `foo` by your scheme name) 
-where you override theme variables to change colors, fonts, spacing, etc.
+Find “Data” on the top of the menu, and click the “sort” command. 
 
-Available variables are listed in the [_variables.scss](https://github.com/pmarsceill/just-the-docs/tree/master/_sass/support/_variables.scss) file.
+Click the  in “sort by” category and choose “Orders”. 
 
-For example, to change the link color from the purple default to blue, include the following inside your scheme file:
+Choose “Cell values” and “Smallest to Largest” separately. 
 
-#### Example
-{: .no_toc }
+Confirm all your operations by clicking OK to see the result below. 
 
-```scss
-$link-color: $blue-000;
-```
-
-_Note:_ Editing the variables directly in `_sass/support/variables.scss` is not recommended and can cause other dependencies to fail.
-Please use scheme files.
-
-### Use a custom scheme
-
-To use the custom color scheme, only set the `color_scheme` parameter in your site's `_config.yml` file:
-```yaml
-color_scheme: foo
-```
-
-### Switchable custom scheme
-
-If you want to be able to change the scheme dynamically, for example via javascript, just add a file `assets/css/just-the-docs-foo.scss` (replace `foo` by your scheme name)
-with the following content:`
-
-{% raw %}
-    ---
-    ---
-    {% include css/just-the-docs.scss.liquid color_scheme="foo" %}
-{% endraw %}
-
-This allows you to switch the scheme via the following javascript.
-
-```js
-jtd.setTheme('foo');
-```
-
-## Override and completely custom styles
-
-For styles that aren't defined as variables, you may want to modify specific CSS classes.
-Additionally, you may want to add completely custom CSS specific to your content.
-To do this, put your styles in the file `_sass/custom/custom.scss`.
-This will allow for all overrides to be kept in a single file, and for any upstream changes to still be applied.
-
-For example, if you'd like to add your own styles for printing a page, you could add the following styles.
-
-#### Example
-{: .no_toc }
-
-```scss
-// Print-only styles.
-@media print {
-  .side-bar, .page-header { display: none; }
-  .main-content { max-width: auto; margin: 1em;}
-}
-```
