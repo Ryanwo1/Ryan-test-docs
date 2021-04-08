@@ -70,11 +70,12 @@ The right side of the Info tab will tell you when the document was created, who 
 It also tells you the size of the file and allows you to categorize your file.
 
 **The info tab has its own important functionalities, however:**
-                - The Protect Workbook option will control who can make what changes on your file. If you do not use this feature, anyone who has access to viewing the document can make changes to it. Someone can (through accident or through malice) erase all your data and hard-work!
-                - Inspect Workbook looks over your shoulder and protects you from things you might have missed. For example, Inspect Workbook can tell you when your file will leak personal information, or if your Excel file will not be compatible with different versions of Excel.
-                - Version History is Excel's internal version of version control. If you make a change that you want to revert (wrong data or the file stopped working after a change) then Version History will help you go back to an earlier version. **Note that you must sign in for your change history to be logged**
-                - Manage Workbooks deals with current and very recent Excel files. It will allow you to recover or delete current unsaved workbooks. Note that unsaved files will not be accessable for very long before they are lost forever, if you need to keep a file then save it to guarantee you will be able to access it in the future.
-                - Browser view options                          - 
+
+- The Protect Workbook option will control who can make what changes on your file. If you do not use this feature, anyone who has access to viewing the document can make changes to it. Someone can (through accident or through malice) erase all your data and hard-work!
+- Inspect Workbook looks over your shoulder and protects you from things you might have missed. For example, Inspect Workbook can tell you when your file will leak personal information, or if your Excel file will not be compatible with different versions of Excel.
+- Version History is Excel's internal version of version control. If you make a change that you want to revert (wrong data or the file stopped working after a change) then Version History will help you go back to an earlier version. **Note that you must sign in for your change history to be logged**
+- Manage Workbooks deals with current and very recent Excel files. It will allow you to recover or delete current unsaved workbooks. Note that unsaved files will not be accessable for very long before they are lost forever, if you need to keep a file then save it to guarantee you will be able to access it in the future.
+- Browser view options                          - 
 
 
 
