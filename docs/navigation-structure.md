@@ -4,7 +4,15 @@ title: Foumulas and Function
 nav_order: 5
 ---
 
+
 # Foumulas and Function
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 
 Functions in Excel are some defined formulas to help users efficiently calculate their values and even analyze the data. A comprehensive function library is included in Excel where people can quickly find many popular ones like sum, average, maximum, minimum and so on. The goal of this section is to explain how to enter formulas and calculate the values of cells by applying existing functions.  
 
