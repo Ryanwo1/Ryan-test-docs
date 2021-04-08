@@ -61,6 +61,8 @@ Instead of manually typing the formulas by ourselves, users can apply redefined 
   
   1.Choose the right cells as your arguments. In this example, we have to choose from B2 to B6. 
 
+  ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image6.png?raw=true "starting window")
+
 
   2.Click the  on the right of AutoSum and select which specific function you need. In this example, we choose function Max to find the greatest numerical values       in the argument. 
   
