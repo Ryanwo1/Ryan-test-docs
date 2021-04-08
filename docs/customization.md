@@ -52,6 +52,7 @@ Goal: Sort the whole sheet alphabetically by “Last Name”.
 
 ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image7.png?raw=true "starting window")
 
+
 ### Sort range
 
 Goal: Sort the number of “Orders” increasingly only in table “Total orders (by Grade)”.
