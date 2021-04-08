@@ -44,75 +44,39 @@ Shared with Me will show you documents that have been specifically shared with y
 
 ## Home
 
-```yaml
- Test
+The Home tab is the default tab when you launch Excel. If you wish to return to it, simply look at the top left of the Splash page. Home the very first tab.
 
-```
 
-## Heading anchor links
+# New
 
-```yaml
-# Heading anchor links appear on hover over h1-h6 tags in page content
-# allowing users to deep link to a particular heading on a page.
-#
-# Supports true (default) or false
-heading_anchors: true
-```
+The New tab is located on the upper-left side of the splash page, below the Home tab. The New tab is used when you wish to create a brand-new document. You are able to create more than just a blank document:  the New tab will provide you with several template options. Should you desire a template that isn't under the new tab, you can use the search bar to search for a more specialized template. Excel even provides suggested search terms to get you started.
 
-## Footer content
+## Open
 
-```yaml
-# Footer content
-# appears at the bottom of every page's main content
-# Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust
-markup / liquid-based content.
-footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>"
+Open is on the splash page, on the upper-left side. Open can be found directly under New. Open allows you to open a folder or workspace by finding it manually on your computer. 
+Clicking on Browse will open up your Explorer, where you can navigate your Computer's file hierarchy and manually select the document you wish to open.
 
-# Footer last edited timestamp
-last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+The Open tab even supports opening documents that are Cloud-based (stored on the internet, not physically on your machine)
 
-# Footer "Edit this page on GitHub" link text
-gh_edit_link: true # show or hide edit this page link
-gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/pmarsceill/just-the-docs" # the github URL for your repo
-gh_edit_branch: "master" # the branch that your docs is served from
-# gh_edit_source: docs # the source that your files originate from
-gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
-```
-
-_note: `footer_content` is deprecated, but still supported. For a better experience we have moved this into an include called `_includes/footer_custom.html` which will allow for robust markup / liquid-based content._
-
-- the "page last modified" data will only display if a page has a key called `last_modified_date`, formatted in some readable date format
-- `last_edit_time_format` uses Ruby's DateTime formatter; see examples and more information [at this link.](https://apidock.com/ruby/DateTime/strftime)
-- `gh_edit_repository` is the URL of the project's GitHub repository
-- `gh_edit_branch` is the branch that the docs site is served from; defaults to `master`
-- `gh_edit_source` is the source directory that your project files are stored in (should be the same as [site.source](https://jekyllrb.com/docs/configuration/options/))
-- `gh_edit_view_mode` is `"tree"` by default, which brings the user to the github page; switch to `"edit"` to bring the user directly into editing mode
-
-## Color scheme
+## Info
 
 ```yaml
-# Color scheme supports "light" (default) and "dark"
-color_scheme: dark
+The info tab does much more than simply provide info and deserves an investigation!
 ```
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
 
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+The info tab's primary purpose is to provide information about the document, as the name suggests.
 
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
-  }
-});
-</script>
+The right side of the Info tab will tell you when the document was created, who created it, and when the document was last changed.
+It also tells you the size of the file and allows you to categorize your file.
 
-See [Customization]({{ site.baseurl }}{% link docs/customization.md %}) for more information.
+**The info tab has its own important functionalities, however:**
+                - The Protect Workbook option will control who can make what changes on your file. If you do not use this feature, anyone who has access to viewing the document can make changes to it. Someone can (through accident or through malice) erase all your data and hard-work!
+                - Inspect Workbook looks over your shoulder and protects you from things you might have missed. For example, Inspect Workbook can tell you when your file will leak personal information, or if your Excel file will not be compatible with different versions of Excel.
+                - Version History is Excel's internal version of version control. If you make a change that you want to revert (wrong data or the file stopped working after a change) then Version History will help you go back to an earlier version. **Note that you must sign in for your change history to be logged**
+                - Manage Workbooks deals with current and very recent Excel files. It will allow you to recover or delete current unsaved workbooks. Note that unsaved files will not be accessable for very long before they are lost forever, if you need to keep a file then save it to guarantee you will be able to access it in the future.
+                - Browser view options                          - 
+
+
 
 ## Google Analytics
 
