@@ -23,8 +23,6 @@ Microsoft Excel has become one of the most widely used software in all the indus
 
 Sort sheet means when we sort a category of values according to a specific pattern, all other correlated values will be moved because of it.
 
-![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image1.png?raw=true "starting window")
-
 ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image1.png?raw=true "starting window")
 ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image2.png?raw=true "starting window")
 
@@ -37,7 +35,7 @@ Sort range means we only sort a part of the cells in a sheet, and it will be con
 
 There are more than 1 table in the sheet, so we only want to sort the “Total Orders (by Grade)” on the right. Then after sorting range alphabetically by “Class”, all the cells of “Payment Method” on the left will never be affected. 
 
-### Insturctions
+## Insturctions
 ### Sort Sheet
 
 Goal: Sort the whole sheet alphabetically by “Last Name”.
