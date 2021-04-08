@@ -27,9 +27,7 @@ This page will give a gentle introduction to navigating Excel - namely the splas
 ## Splash page
 
 
- When you launch Excel, you are met with the following page: 
- 
- ![splash page](https://github.com/Ryanwo1/Rykyha/blob/6e1b46c5b422fb6437bdafdb3e8aa174d210a5a6/assets/images/navigation_image1.png?raw=true)
+ When you launch Excel, you are met with the following page: <IMG HERE>
     
 The top bar allows you to quickly create a new document. The first option on the left will create a new blank spreadsheet, and the options to the right are a basic Excel introduction (recommended for absolute beginners) and tutorials for various Excel features. Clicking on More templates will provide you with various skeleton files - handy when you want to quickly launch many kinds of charts and graphs.
     
