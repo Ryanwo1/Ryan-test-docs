@@ -47,7 +47,7 @@ Shared with Me will show you documents that have been specifically shared with y
 The Home tab is the default tab when you launch Excel. If you wish to return to it, simply look at the top left of the Splash page. Home the very first tab.
 
 
-# New
+## New
 
 The New tab is located on the upper-left side of the splash page, below the Home tab. The New tab is used when you wish to create a brand-new document. You are able to create more than just a blank document:  the New tab will provide you with several template options. Should you desire a template that isn't under the new tab, you can use the search bar to search for a more specialized template. Excel even provides suggested search terms to get you started.
 
