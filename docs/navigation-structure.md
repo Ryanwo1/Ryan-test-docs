@@ -17,12 +17,16 @@ nav_order: 5
 </details>
 
 ---
+Functions in Excel are some defined formulas to help users efficiently calculate their values and even analyze the data. A comprehensive function library is included in Excel where people can quickly find many popular ones like sum, average, maximum, minimum and so on. The goal of this section is to explain how to enter formulas and calculate the values of cells by applying existing functions.  
 
-## Main navigation
 
-The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren).
+## Introduction of Parts of Functions
 
-By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see [Pages with Children](#pages-with-children)).
+In Excel, functions must be written in a specific way for the system to read and operate user’s commands, so a function has to be shown as below. Every single function mainly consists of three parts: equals sign, function name and arguments. 
+
+Arguments, not as straightforward as equals sign and function name, might be a bit confused. One or more arguments are required in a function, and the positions of needed values are in the bracket. For example, this function is to calculate the average from cell A1 to cell A10.
+
+
 
 ---
 
