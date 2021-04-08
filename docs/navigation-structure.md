@@ -64,8 +64,8 @@ Instead of manually typing the formulas by ourselves, users can apply redefined 
 
   2.Click the  on the right of AutoSum and select which specific function you need. In this example, we choose function Max to find the greatest numerical values       in the argument. 
   
-![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image7.png?raw=true "starting window")             
-![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image8.png?raw=true "starting window")
+![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image7.png?raw=true "starting window")
+ ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image8.png?raw=true "starting window")
 
   3.The maximum numerical value is automatically shown under the last cell of the argument (B7) which is highlighted in yellow. 
 
