@@ -58,11 +58,23 @@ Goal: Sort the number of “Orders” increasingly only in table “Total orders
 
 1.Select all the values in “Class” and “Orders” columns. 
 
+![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image8.pngraw=true "starting window")
+
 2.Find “Data” on the top of the menu, and click the “sort” command. 
 
-3.Click the  in “sort by” category and choose “Orders”. 
+![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image9.pngraw=true "starting window")
+
+3.Click the ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image4.pngraw=true "starting window") in “sort by” category and choose “Orders”. 
+
+![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image11.pngraw=true "starting window")
 
 4.Choose “Cell values” and “Smallest to Largest” separately. 
 
+![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image12.pngraw=true "starting window")
+
 5.Confirm all your operations by clicking OK to see the result below. 
+
+![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image13.pngraw=true "starting window")
+
+![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image14.pngraw=true "starting window")
 
