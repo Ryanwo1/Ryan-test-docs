@@ -37,7 +37,9 @@ Many people prefer to edit their own formulas to calculate the values in their o
 ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image4.png?raw=true "starting window")
 
 Note: 
+
   -If you are afraid of typing the position of cells wrong, you can easily click on the cells you want to select. 
+  
   -Do not forget to type “=” in front of every function for Excel newbies.    
 
 ---
