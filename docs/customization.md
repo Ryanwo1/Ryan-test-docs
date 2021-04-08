@@ -7,6 +7,7 @@ nav_order: 6
 # Data Analysis
 {: .no_toc }
 
+
 ## Table of contents
 {: .no_toc .text-delta }
 
@@ -14,39 +15,29 @@ nav_order: 6
 {:toc}
 
 ---
+Microsoft Excel has become one of the most widely used software in all the industries. And data analysis is one of the most important functionalities in Excel which includes sorting, conditional formatting, charts and so on.
 
-## Color schemes
-{: .d-inline-block }
+## Sorting
 
-New
-{: .label .label-green }
+### Sort Sheet or sort range
 
-Just the Docs supports two color schemes: light (default), and dark.
+Sort sheet means when we sort a category of values according to a specific pattern, all other correlated values will be moved because of it. Let’s read the example below.
 
-To enable a color scheme, set the `color_scheme` parameter in your site's `_config.yml` file:
+In the original worksheet, all the information was sorted by the “Homeroom” column. However, if we sort the whole sheet again alphabetically by the “Last Name” of people, then not only the order of “Last Name” did change, but information in other columns which is related to this name also moves. 
+Sort range means we only sort a part of the cells in a sheet, and it will be convenient when there are a few different tables in the same worksheet. Let’s read another example below. 
 
-#### Example
-{: .no_toc }
 
-```yaml
-# Color scheme supports "light" (default) and "dark"
-color_scheme: dark
-```
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
+There are more than 1 table in the sheet, so we only want to sort the “Total Orders (by Grade)” on the right. Then after sorting range alphabetically by “Class”, all the cells of “Payment Method” on the left will never be affected. 
 
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+### Insturcions
+1.Sort Sheet
 
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
-  }
-});
-</script>
+Goal: Sort the whole sheet alphabetically by “Last Name”.
+Select any cells in the “Last Name” column. For instance, we choose C2 this time. 
+
+Find “Data” on the top of the menu, and click the “A-Z” command to rank names from initial A to initial Z.  
+The result has been presented below. 
+
 
 ## Custom schemes
 
