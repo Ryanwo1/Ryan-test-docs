@@ -80,16 +80,3 @@ Note:
   -It is extremely important to study the syntax of the function you want to use. 
 Now you know how to flexibly apply functions in Excel. The key of this task is to practice more and gradually get familiar with the syntax.  
 
-
-```markdown
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-```
-
-The result is shown at [the top of this page](#navigation-structure) (`{:toc}` can be used only once on each page).
