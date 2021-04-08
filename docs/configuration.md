@@ -40,36 +40,6 @@ Pinned allows you to access files that you have pinned. Pinning a file marks it 
 To pin a file, find it (either through the Search bar or through the Recent tab), right click it, then click on "Pin to list" <IMG HERE>. Your file will now immediately appear under the Pinned tab.
     
 Shared with Me will show you documents that have been specifically shared with you. This allows you to more easily sort out documents that are part of a team effort.
-
-```yaml
-    When you launch Excel, you are met with the following page: <IMG HERE>
-    
-    The top bar allows you to quickly create a new document. The first option on the left will create a new blank spreadsheet, and the options to the right are a basic Excel introduction (recommended for absolute beginners) and tutorials for various Excel features. Clicking on More templates will provide you with various skeleton files - handy when you want to quickly launch many kinds of charts and graphs.
-    
-    Below the top bar you will find the search bar. The search bar is useful for finding a specific document when the name is known. 
-    
-    Below the search bar are 3 options to find files when the name is not known. The first is Recent. Recent shows you your mostly recently used files, in descending order. Clicking on More workbooks will allow you to go back even further in time.
-    
-    Pinned allows you to access files that you have pinned. Pinning a file marks it as one of your favourites and allows you to quickly access it next time. Pinning is a great option when you won't use a file on a regular basis, but the file needs to be found quickly and easily when it is needed. 
-    
-    To pin a file, find it (either through the Search bar or through the Recent tab), right click it, then click on "Pin to list" <IMG HERE>. Your file will now immediately appear under the Pinned tab.
-    
-    Shared with Me will show you documents that have been specifically shared with you. This allows you to more easily sort out documents that are part of a team effort.
-'''
-
-    When you launch Excel, you are met with the following page: <IMG HERE>
-    
-    The top bar allows you to quickly create a new document. The first option on the left will create a new blank spreadsheet, and the options to the right are a basic Excel introduction (recommended for absolute beginners) and tutorials for various Excel features. Clicking on More templates will provide you with various skeleton files - handy when you want to quickly launch many kinds of charts and graphs.
-    
-    Below the top bar you will find the search bar. The search bar is useful for finding a specific document when the name is known. 
-    
-    Below the search bar are 3 options to find files when the name is not known. The first is Recent. Recent shows you your mostly recently used files, in descending order. Clicking on More workbooks will allow you to go back even further in time.
-    
-    Pinned allows you to access files that you have pinned. Pinning a file marks it as one of your favourites and allows you to quickly access it next time. Pinning is a great option when you won't use a file on a regular basis, but the file needs to be found quickly and easily when it is needed. 
-    
-    To pin a file, find it (either through the Search bar or through the Recent tab), right click it, then click on "Pin to list" <IMG HERE>. Your file will now immediately appear under the Pinned tab.
-    
-    Shared with Me will show you documents that have been specifically shared with you. This allows you to more easily sort out documents that are part of a team effort.
     
 
 ## Home
