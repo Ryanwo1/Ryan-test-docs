@@ -41,7 +41,7 @@ Pinned allows you to access files that you have pinned. Pinning a file marks it 
     
 To pin a file, find it (either through the Search bar or through the Recent tab), right click it, then click on "Pin to list".
 
-![right click to pin](https://github.com/Ryanwo1/Rykyha/blob/6e1b46c5b422fb6437bdafdb3e8aa174d210a5a6/assets/images/navigation_image2.png?raw=true)
+![right click to pin](https://github.com/Ryanwo1/Rykyha/blob/bde419d089a41b70f31dfd2b6aee0a783cfdf703/assets/images/navigation_image2.png?raw=true)
  
  Your file will now immediately appear under the Pinned tab.
  
