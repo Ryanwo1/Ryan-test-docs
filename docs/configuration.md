@@ -25,10 +25,10 @@ View this site's [_config.yml](https://github.com/pmarsceill/just-the-docs/tree/
 ## Navigation introduction
 
 ```yaml
-This page will describe how to move about an Excel document and your options for viewing the sheets contained within.
+This page will give a gentle introduction to navigating Excel - namely the splash page and home page.
 ```
 
-## Search
+## Splash page
 
 ```yaml
 # Enable or disable the site search
@@ -36,40 +36,25 @@ This page will describe how to move about an Excel document and your options for
 search_enabled: true
 
 search:
-  # Split pages into sections that can be searched individually
-  # Supports 1 - 6, default: 2
-  heading_level: 2
-  # Maximum amount of previews per search result
-  # Default: 3
-  previews: 3
-  # Maximum amount of words to display before a matched word in the preview
-  # Default: 5
-  preview_words_before: 5
-  # Maximum amount of words to display after a matched word in the preview
-  # Default: 10
-  preview_words_after: 10
-  # Set the search token separator
-  # Default: /[\s\-/]+/
-  # Example: enable support for hyphenated search words
-  tokenizer_separator: /[\s/]+/
-  # Display the relative url in search results
-  # Supports true (default) or false
-  rel_url: true
-  # Enable or disable the search button that appears in the bottom right corner of every page
-  # Supports true or false (default)
-  button: false
+    When you launch Excel, you are met with the following page: <IMG HERE>
+    
+    The top bar allows you to quickly create a new document. The first option on the left will create a new blank spreadsheet, and the options to the right are a basic Excel introduction (recommended for absolute beginners) and tutorials for various Excel features. Clicking on More templates will provide you with various skeleton files - handy when you want to quickly launch many kinds of charts and graphs.
+    
+    Below the top bar you will find the search bar. The search bar is useful for finding a specific document when the name is known. 
+    
+    Below the search bar are 3 options to find files when the name is not known. The first is Recent. Recent shows you your mostly recently used files, in descending order. Clicking on More workbooks will allow you to go back even further in time.
+    
+    Pinned allows you to access files that you have pinned. Pinning a file marks it as one of your favourites and allows you to quickly access it next time. Pinning is a great option when you won't use a file on a regular basis, but the file needs to be found quickly and easily when it is needed. 
+    
+    To pin a file, find it (either through the Search bar or through the Recent tab), right click it, then click on "Pin to list" <IMG HERE>. Your file will now immediately appear under the Pinned tab.
+    
+    Shared with Me will show you documents that have been specifically shared with you. This allows you to more easily sort out documents that are part of a team effort.
 ```
 
-## Aux links
+## Home
 
 ```yaml
-# Aux links for the upper right navigation
-aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/pmarsceill/just-the-docs"
 
-# Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
 ```
 
 ## Heading anchor links
