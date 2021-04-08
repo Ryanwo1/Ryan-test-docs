@@ -37,7 +37,13 @@ Below the search bar are 3 options to find files when the name is not known. The
     
 Pinned allows you to access files that you have pinned. Pinning a file marks it as one of your favourites and allows you to quickly access it next time. Pinning is a great option when you won't use a file on a regular basis, but the file needs to be found quickly and easily when it is needed. 
     
-To pin a file, find it (either through the Search bar or through the Recent tab), right click it, then click on "Pin to list" <IMG HERE>. Your file will now immediately appear under the Pinned tab.
+To pin a file, find it (either through the Search bar or through the Recent tab), right click it, then click on "Pin to list".
+
+![splash page](https://github.com/Ryanwo1/Rykyha/blob/6e1b46c5b422fb6437bdafdb3e8aa174d210a5a6/assets/images/navigation_image2.png?raw=true)
+ 
+ Your file will now immediately appear under the Pinned tab.
+ 
+![pinned tab selected](https://github.com/Ryanwo1/Rykyha/blob/6e1b46c5b422fb6437bdafdb3e8aa174d210a5a6/assets/images/navigation_image2.png?raw=true)
     
 Shared with Me will show you documents that have been specifically shared with you. This allows you to more easily sort out documents that are part of a team effort.
     
