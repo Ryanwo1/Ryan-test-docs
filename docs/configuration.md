@@ -22,11 +22,10 @@ Excel navigation...
 View this site's [_config.yml](https://github.com/pmarsceill/just-the-docs/tree/master/_config.yml) file as an example.
 
 
-## Site logo
+## Navigation introduction
 
 ```yaml
-# Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/just-the-docs.png"
+This page will describe how to move about an Excel document and your options for viewing the sheets contained within.
 ```
 
 ## Search
