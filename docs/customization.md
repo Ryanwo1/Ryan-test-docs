@@ -23,6 +23,7 @@ Microsoft Excel has become one of the most widely used software in all the indus
 
 Sort sheet means when we sort a category of values according to a specific pattern, all other correlated values will be moved because of it. Let’s read the example below.
 
+
 In the original worksheet, all the information was sorted by the “Homeroom” column. However, if we sort the whole sheet again alphabetically by the “Last Name” of people, then not only the order of “Last Name” did change, but information in other columns which is related to this name also moves. 
 Sort range means we only sort a part of the cells in a sheet, and it will be convenient when there are a few different tables in the same worksheet. Let’s read another example below. 
 
