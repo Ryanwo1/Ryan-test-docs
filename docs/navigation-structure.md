@@ -55,16 +55,26 @@ Instead of manually typing the formulas by ourselves, users can apply redefined 
   - MIN: Find the minimum value in the whole arguments.    
   - AutoSum:
 
+![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image5.png?raw=true "starting window")
+
   AutoSum is most frequently used icon for many Excel users because it contains the most popular functions in Excel. So, how can we use that? 
   
   1.Choose the right cells as your arguments. In this example, we have to choose from B2 to B6. 
 
+![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image6.png?raw=true "starting window")
+
   2.Click the  on the right of AutoSum and select which specific function you need. In this example, we choose function Max to find the greatest numerical values       in the argument. 
+  
+![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image7.png?raw=true "starting window")
+
+  ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image8.png?raw=true "starting window")
 
   3.The maximum numerical value is automatically shown under the last cell of the argument (B7) which is highlighted in yellow. 
 
   Note:  
     There is no need to enter “=” before using AutoSum because everything has been automatically set up. The only thing the user is required to make sure is the       cells of values in the argument. 
+    
+  ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/functions-image9.png?raw=true "starting window")
 
 ---
 
