@@ -31,7 +31,6 @@ This page will give a gentle introduction to navigating Excel - namely the splas
 ## Splash page
 
 ```yaml
-search:
     When you launch Excel, you are met with the following page: <IMG HERE>
     
     The top bar allows you to quickly create a new document. The first option on the left will create a new blank spreadsheet, and the options to the right are a basic Excel introduction (recommended for absolute beginners) and tutorials for various Excel features. Clicking on More templates will provide you with various skeleton files - handy when you want to quickly launch many kinds of charts and graphs.
@@ -60,6 +59,8 @@ search:
     To pin a file, find it (either through the Search bar or through the Recent tab), right click it, then click on "Pin to list" <IMG HERE>. Your file will now immediately appear under the Pinned tab.
     
     Shared with Me will show you documents that have been specifically shared with you. This allows you to more easily sort out documents that are part of a team effort.
+    
+    
 
 ## Home
 
