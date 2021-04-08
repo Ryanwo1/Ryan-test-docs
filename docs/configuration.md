@@ -75,64 +75,46 @@ It also tells you the size of the file and allows you to categorize your file.
 - Inspect Workbook looks over your shoulder and protects you from things you might have missed. For example, Inspect Workbook can tell you when your file will leak personal information, or if your Excel file will not be compatible with different versions of Excel.
 - Version History is Excel's internal version of version control. If you make a change that you want to revert (wrong data or the file stopped working after a change) then Version History will help you go back to an earlier version. **Note that you must sign in for your change history to be logged**
 - Manage Workbooks deals with current and very recent Excel files. It will allow you to recover or delete current unsaved workbooks. Note that unsaved files will not be accessable for very long before they are lost forever, if you need to keep a file then save it to guarantee you will be able to access it in the future.
-- Browser view options                          - 
+- Browser view options control how your Excel file will look on internet browsers as well as control which cells can be modified via a broswer.                       - 
 
 
 
-## Google Analytics
+## Save / Save As
 
-```yaml
-# Google Analytics Tracking (optional)
-# e.g, UA-1234567-89
-ga_tracking: UA-5555555-55
-ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
-```
+Clicking on Save will quickly save the document, with no further action required on your part. The file will be saved in the same place with the same name as the previous version.
 
-## Document collections
+Save as allows you to save the document in a new place or with a new name. Both the new version and the previous versions will exist as 2 separate documents after selecting "Save As"
 
-By default, the navigation and search include normal [pages](https://jekyllrb.com/docs/pages/).
-Instead, you can also use [Jekyll collections](https://jekyllrb.com/docs/collections/) which group documents semantically together.
+## Print
 
-For example, put all your documentation files in the `_docs` folder and create the `docs` collection:
-```yaml
-# Define Jekyll collections
-collections:
-  # Define a collection named "docs", its documents reside in the "_docs" directory
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
+Print allows you to send your files to a printer. On this tab you can also change options for printing (printing specific pages, printing single of double sided, adjusting the margins etc.)
 
-just_the_docs:
-  # Define which collections are used in just-the-docs
-  collections:
-    # Reference the "docs" collection
-    docs:
-      # Give the collection a name
-      name: Documentation
-      # Exclude the collection from the navigation
-      # Supports true or false (default)
-      nav_exclude: false
-      # Exclude the collection from the search
-      # Supports true or false (default)
-      search_exclude: false
-```
+The Print tab does not only convert physical printing, it also includes functions such as "print to .pdf" which will convert your Excel file to a .pdf and then save it. This is an easy and convenient way of converting your file format.
 
-You can reference multiple collections.
-This creates categories in the navigation with the configured names.
-```yaml
-collections:
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
-  tutorials:
-    permalink: "/:collection/:path/"
-    output: true
+## Share
 
-just_the_docs:
-  collections:
-    docs:
-      name: Documentation
-    tutorials:
-      name: Tutorials
-```
+The Share tab allows you to share your Excel files with another user digitally. Think of it as a link, like to a website.
 
+## Export
+
+Export is another way of allowing you to create a .pdf/xps document. This tab also allows you to change the file format of the current document.
+
+## Publish
+
+Publish will Publish your document to Power BI, a business analytics tool made by Microsoft. To use this feature, you must be signed into your Power BI account. More information is available in the Troubleshooting section
+
+## Close
+
+Close will close the current file. Be careful pressing this tab because there is no prompt and the file closes immediately.
+
+## Account
+
+Account provides information about your Microsoft 365 account. You can edit your privacy and change Excel visual themes and backgrounds. The Account tab also provides updates about Microsoft products (Excel, Word and Powerpoint, among others)
+
+
+## Feedback
+
+Feedback allows you to tell Microsoft whether you like or dislike a specific feature. It also allows you to write to Microsoft if you want to suggest a specific feature.
+
+## Options
+Options provides an entire suite of configurations. If an issue wasn't covered above, there's a good chance that it's in options.
