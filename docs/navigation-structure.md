@@ -11,10 +11,12 @@ Functions in Excel are some defined formulas to help users efficiently calculate
 
 ## Introduction of Parts of Functions
 
-In Excel, functions must be written in a specific way for the system to read and operate user’s commands, so a function has to be shown as below. Every single function mainly consists of three parts: equals sign, function name and arguments. 
-![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/image1.png?raw=true "starting window")
+In Excel, functions must be written in a specific way for the system to read and operate user’s commands, so a function has to be shown as below. Every single function mainly consists of three parts: equals sign, function name and arguments.
 
-Arguments, not as straightforward as equals sign and function name, might be a bit confused. One or more arguments are required in a function, and the positions of needed values are in the bracket. For example, this function is to calculate the average from cell A1 to cell A10.
+Arguments, not as straightforward as equals sign and function name, might be a bit confused. One or more arguments are required in a function, and the positions of needed values are in the bracket.
+
+![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/image1.png?raw=true "starting window")
+ For example, this function is to calculate the average from cell A1 to cell A10.
 
 
 
