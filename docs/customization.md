@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Formatting and Presentation
+title: Data Analysis
 nav_order: 6
 ---
 
-# Formatting and Presentation
+# Data Analysis
 {: .no_toc }
 
 ## Table of contents
