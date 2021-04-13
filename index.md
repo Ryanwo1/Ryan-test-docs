@@ -6,29 +6,30 @@ description: "Just the Docs is a responsive Jekyll theme with built-in search th
 permalink: /
 ---
 
-# Focus on writing good documentation
+# A Newbie's Guide to Microsoft Excel
 {: .fs-9 }
 
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
+Get started with Microsoft Excel!
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/Ryanwo1/Rykyha){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
-## Getting started
+## Introduction
 
-### Dependencies
+### Preface
 
-Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/).
+Microsoft Excel (MS Excel) is a popular industry-standard spreadsheet program for performing calculations and organizing and analyzing data. You can find people using Excel at work, school, or for various personal tasks (personal finances, impromptu calculations, etc.). 
 
-### Quick start: Use as a GitHub Pages remote theme
+### Goals and Intended Audience
 
-1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
-```yaml
-remote_theme: pmarsceill/just-the-docs
-```
-<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote)</small>
+This guide is for basic computer users who had little or no exposure to MS Excel. The guide will build a solid base of knowledge so the reader may investigate more advanced topics in the future. Excel is a powerful program with an extensive list of features and functionality. Advanced topics such as Pivot tables and Microsoft Visual Basic will not be covered. By the end of this guide, you will know how to:
+
+•	navigate the program features
+•	use formulas and functions
+•	perform simple data analysis
+    
 
 ### Local installation: Use the gem-based theme
 
