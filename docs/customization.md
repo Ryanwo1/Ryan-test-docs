@@ -79,3 +79,22 @@ Goal: Sort the number of “Orders” increasingly only in table “Total orders
 
 ![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image14.png?raw=true "starting window")
 
+### Conditional Formatting
+
+Conditional formatting is a functionality which allows users to format cells which meet some specific criteria. Conditional formatting enables users to do the following things. It is able to work as a reminder by asking people to pay attention to some important data. In addition, it can make some big data more visible so that these complicated values can be understood more easily. In this example, we are going to apply conditional formatting rules, so that the percentage of anyone which is greater than 100% is shown in green. 
+
+1.Select all the values in the “Percentage” column.
+
+2.Click “Home” and find “Conditional formatting”. Then Choose the first “Highlight Cell Rules” -> “Greater Than”.  
+
+3.Enter “100%” into the blanck in the left under the text “Format cells that are GREATER THAN”. 
+
+
+
+4.Click  in the right blanck after text “with” and find “Green Fill with Dark Green Text”.   
+
+5.Confirm all the choices by clicking the “OK”, and the final result is shown in below.
+
+Now, you know some basic knowledge about how to analyze data by using Excel. However, the functionalities of sorting and conditional formatting are not limited to the content mentioned above. We can still explore them by ourselves to analyze the data in a more personalized way.  
+
+
