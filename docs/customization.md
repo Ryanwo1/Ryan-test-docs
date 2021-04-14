@@ -85,15 +85,24 @@ Conditional formatting is a functionality which allows users to format cells whi
 
 1.Select all the values in the “Percentage” column.
 
+![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image15.png?raw=true "starting window")
+
 2.Click “Home” and find “Conditional formatting”. Then Choose the first “Highlight Cell Rules” -> “Greater Than”.  
+
+![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image16.png?raw=true "starting window")
 
 3.Enter “100%” into the blanck in the left under the text “Format cells that are GREATER THAN”. 
 
-
+![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image17.png?raw=true "starting window")
 
 4.Click  in the right blanck after text “with” and find “Green Fill with Dark Green Text”.   
 
+![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image18.png?raw=true "starting window")
+
 5.Confirm all the choices by clicking the “OK”, and the final result is shown in below.
+
+![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image19.png?raw=true "starting window")
+![starting-window](https://github.com/Ryanwo1/Rykyha/blob/gh-pages/assets/images/data-analysis-image20.png?raw=true "starting window")
 
 Now, you know some basic knowledge about how to analyze data by using Excel. However, the functionalities of sorting and conditional formatting are not limited to the content mentioned above. We can still explore them by ourselves to analyze the data in a more personalized way.  
 
